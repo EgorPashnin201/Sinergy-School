@@ -1,0 +1,22 @@
+body
+{
+    background-color: black;
+    font-family: "Microsoft YaHei";
+    color: white;
+}
+
+h2.firstCSSclass
+{
+    font-family: Arial;
+}
+
+h2.secondCSSclass
+{
+    font-family: fantasy;
+}
+
+p.pClass
+{
+    color: red;
+    font-family: Serif;
+}
