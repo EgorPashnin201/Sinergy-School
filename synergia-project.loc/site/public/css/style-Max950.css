@@ -1,0 +1,136 @@
+@media only screen and (max-device-width : 950px) {
+    header {
+        height: calc(30px + 40 * (100vw - 50px) / 880);
+        margin-bottom: calc(-30px - 40 * (100vw - 50px) / 880);
+    }
+    
+    .content {
+        min-height: 100%;
+        padding-top: calc(30px + 40 * (100vw - 50px) / 880);
+        padding-bottom: calc(30px + 40 * (100vw - 50px) / 880);
+    }
+    
+    footer {
+        height: calc(30px + 40 * (100vw - 50px) / 880);
+        margin-top: calc(-30px - 40 * (100vw - 50px) / 880);
+    }
+
+    .footer-menu {
+        text-align: center;
+        font-size: calc(5px + 15 * (100vw - 50px) / 950);
+    }
+    
+    .header-menu {
+        margin: auto;
+        display: flex;
+        position: relative;
+    }
+    
+    .button {
+        border-radius: 1px;
+        font-size: calc(5px + 15 * (100vw - 50px) / 950);
+    
+        margin-top: calc(10px + 10 * (100vw - 0px) / 950);
+        margin-bottom: calc(10px + 10 * (100vw - 0px) / 950);
+        
+        padding: calc(3px + 3 * (100vw - 0px) / 950);
+    }    
+
+    #sign-up_button {
+        margin-left: calc(1px + 9 * (100vw - 0px) / 950);
+    }
+    
+    .button:focus {
+        border-radius: 3px;
+    }
+     
+    #search_button {
+        margin-left: calc(1px + 0 * (100vw - 0px) / 950);
+    }
+    
+    #sign-out_button {
+        margin-left: calc(1px + 7 * (100vw - 0px) / 950);
+    }
+    
+    .posts {
+        margin: auto;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .post {
+        font-size: calc(5px + 15 * (100vw - 50px) / 950);
+        
+        width: 100%;
+        margin: 10px;
+    }
+    
+    .post_name {
+        margin-bottom: calc(-15px - 20 * (100vw - 50px) / 880);
+        height: calc(15px + 20 * (100vw - 50px) / 880);
+    
+        border: 5px solid inherit;
+        border-top-left-radius: calc(7px + 1 * (100vw - 50px) / 880);
+        border-top-right-radius: calc(7px + 1 * (100vw - 50px) / 880);
+    
+        padding: 5px;
+    }
+    
+    .post_content-position {
+        padding-top: calc(15px + 20 * (100vw - 50px) / 880);
+        padding-bottom: calc(15px + 20 * (100vw - 50px) / 880);
+    }
+    
+    .post_content {
+        height: 200px;
+    
+        padding: 5px;
+    }
+    
+    .post_theme {
+        margin-top: calc(-15px - 20 * (100vw - 50px) / 880);
+        height: calc(15px + 20 * (100vw - 50px) / 880);
+        
+        border: 5px solid inherit;
+        border-bottom-left-radius: calc(7px + 1 * (100vw - 50px) / 880);
+        border-bottom-right-radius: calc(7px + 1 * (100vw - 50px) / 880);
+        
+        padding: 5px;
+    }
+    
+    .accountInfo {
+        width: 70%;
+        font-size: calc(5px + 15 * (100vw - 50px) / 950);
+    }
+    
+    .postPageContent {
+        font-size: calc(5px + 15 * (100vw - 50px) / 950);
+        margin: auto;
+    }
+    
+    .content-menuButton {
+        font-size: calc(5px + 15 * (100vw - 50px) / 950);
+    
+        margin: 20px;
+    }
+    
+    .way-position {
+        font-size: calc(5px + 15 * (100vw - 50px) / 950);
+    
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .search_result {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: calc(5px + 15 * (100vw - 50px) / 950);
+    }
+    
+    .userCenter {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: calc(5px + 15 * (100vw - 50px) / 950);
+    }
+}

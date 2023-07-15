@@ -1,0 +1,139 @@
+@media only screen and (min-width : 951px) {
+    header {
+        height: 90px;
+        margin-bottom: -90px;
+    }
+    
+    .content {
+        min-height: 100%;
+        padding-top: 90px;
+        padding-bottom: 60px;
+    }
+    
+    footer {
+        height: 60px;
+        margin-top: -60px;
+    }
+
+    .footer-menu {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .header-menu {
+        margin: auto;
+        display: flex;
+        position: relative;
+    }
+    
+    .button {
+        border-radius: 1px;
+        font-size: 30px;
+    
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #sign-up_button {
+        margin-left: 20px;
+    }
+    
+    .button:focus {
+        border-radius: 3px;
+    }
+     
+    #search_button {
+        margin-left: 20px;
+    }
+    
+    #sign-out_button {
+        margin-left: 20px;
+    }
+    
+    .posts {
+        margin: auto;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .post {
+        font-size: 25px;
+        
+        width: 30%;
+        margin: 10px;
+    }
+    
+    .post_name {
+        margin-bottom: -40px;
+        height: 40px;
+    
+        border: 5px solid inherit;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    
+        padding: 5px;
+    }
+    
+    .post_content-position {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .post_content {
+        height: 300px;
+    
+        padding: 5px;
+    }
+    
+    .post_theme {
+        margin-top: -40px;
+        height: 40px;
+        
+        border: 5px solid inherit;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        
+        padding: 5px;
+    }
+    
+    .accountInfo {
+        width: 70%;
+        font-size: 30px;
+    }
+    
+    .postPageContent {
+        font-size: 30px;
+        margin: 20px auto;
+    }
+    
+    .content-menuButton {
+        font-size: 20px;
+    
+        margin: 20px;
+    }
+    
+    .way-position {
+        font-size: 20px;   
+    
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .search_result {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    
+    .userCenter {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+}

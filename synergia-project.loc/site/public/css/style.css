@@ -1,0 +1,229 @@
+/* @font-face {
+    font-family: 'Inter Thin';
+    src: url(/Inter-VariableFont_slnt,wght.ttf);
+} */
+
+*, *::before, *::after {
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+    height: 100%;
+    background-color: #ffffff;
+    font-family: "Microsoft YaHei";
+}
+
+header {
+    background: #312c38; 
+}
+
+footer {
+    background: #1e1b23; 
+    color: #EEEEEE;
+}
+
+.header-menu {
+    width: 95%;
+    height: 100%;
+}
+
+.button {
+    background: #ffffff;
+    border: inherit;
+    text-decoration: none;
+
+    color: #000000;
+    font-family: inherit;
+    font-weight: bold;
+
+    transition: all 250ms ease;
+}
+
+.button:hover {
+    color: #EEEEEE;
+    background: #E73C37;
+    border: inherit;
+    transform: scale(1.05);
+}
+
+:hover::placeholder {
+    color: #EEEEEE;
+}
+
+.search {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.button:focus {
+    outline: none;
+    border: #EEEEEE;
+    transform: scale(1.05);
+}
+
+.post {
+    text-decoration: none;
+    color: #000000;
+    
+    text-align: justify;
+    word-break: keep-all;
+
+    transition: all 250ms ease;
+}
+
+.post_name {
+    background: #f3e7dc;
+    font-weight: bold;
+}
+
+.post_content-position {
+    height: 100%;
+}
+
+.post_content-color {
+    background-color: #fffcfe;
+}
+
+.post_content {    
+	background-clip: content-box;
+    background-image: linear-gradient(to bottom, #000000, #000000 70%, #fffcfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.post_theme {
+    color: #EEEEEE;
+    background: #BFB0A0;
+    font-weight: bold;
+}
+
+.post:hover {
+    transform: scale(1.025);
+}
+
+.content-menu {
+    background: #1e1b23; 
+    
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.accountInfo {
+    background: #fffcfe;
+    margin: auto;
+}
+
+.content-menuButton {
+    font-family: inherit;
+    font-weight: bold;
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.way-position {
+    color: #EEEEEE;
+}
+
+.content-menuButton:hover {
+    color: #c6c6c6;
+}
+
+#createPostButton {
+    position: absolute;
+    right: 0;
+}
+
+.search_result {
+    color: inherit;
+    text-align: center;
+    margin: auto;
+}
+
+.textCenter {
+    color: inherit;
+    text-align: center;
+    margin: auto;
+}
+
+td {
+    word-break: break-all;
+}
+
+.postPageContent {
+    width: 90%;
+    background: #fffcfe;
+}
+
+.postPageText {
+    text-align: justify;
+    word-break: keep-all;
+}
+
+.postPageHeader {
+    color: inherit;
+    text-align: center;
+    margin: auto;
+    background: #f3e7dc;
+
+    border: 5px solid inherit;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.postPageFooter {
+    color: #EEEEEE;
+    padding: 10px;
+    background: #BFB0A0;
+        
+    border: 5px solid inherit;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.contentCenter {
+    margin: auto;
+    font-size: 25px;
+    width: 90%;
+}
+
+.output {
+    font-size: 3vh;
+    position: fixed;
+    right: 1vw;
+    bottom: 10vh;
+    padding: 1vh;
+    border-radius: 1vh;
+    color: transparent;
+    background: transparent;
+    user-select: none;
+    
+    animation: output 3s;
+}
+
+@keyframes output {
+    from {
+        color: transparent;
+        background: transparent;
+        user-select: none;
+    }
+
+    30%, 60% {
+        color: #EEEEEE;
+        background: #E73C37;
+        user-select: none;
+    }
+
+    to {
+        color: transparent;
+        background: transparent;
+        user-select: none;
+    }
+}
